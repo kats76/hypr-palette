@@ -6,6 +6,8 @@
 
 La paleta de mi [escritorio Hyprland](https://github.com/kats76/dotfiles) para las apps que uso a diario: un tema de Firefox y estilos para Vimium, para que el navegador se vea como el resto del escritorio.
 
+![Firefox con el tema Hypr Palette](docs/img/firefox.webp)
+
 ![Paleta](docs/img/palette.svg)
 
 | Nombre | Color | Para qué |
@@ -36,6 +38,10 @@ El CI ejecuta `web-ext lint`, el mismo linter de Mozilla que revisa cada envío.
 ## Vimium
 
 `vimium/hypr-palette.css` da estilo a [Vimium](https://github.com/philc/vimium), la extensión para navegar con el teclado: etiquetas de enlaces en `bg` con borde `accent` y las letras escritas en `accent2`, la barra de búsqueda (Vomnibar) con el resultado seleccionado en `accent` y los avisos de abajo (buscar en la página, modo visual) a juego. JetBrainsMono en todo.
+
+![Etiquetas de enlaces de Vimium](docs/img/vimium-hints.webp)
+
+![Barra de búsqueda de Vimium](docs/img/vimium-vomnibar.webp)
 
 **Aplicar:** opciones de Vimium → *CSS para la interfaz de Vimium* (en las opciones avanzadas) → pegar el fichero y guardar. Pulsa `f` en cualquier página para ver las etiquetas y `o` para la barra de búsqueda.
 

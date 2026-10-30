@@ -6,6 +6,8 @@
 
 The palette of my [Hyprland desktop](https://github.com/kats76/dotfiles) for the apps I use every day: a Firefox theme and Vimium styles, so the browser looks like the rest of the desktop.
 
+![Firefox with the Hypr Palette theme](docs/img/firefox.webp)
+
 ![Palette](docs/img/palette.svg)
 
 | Name | Color | Used for |
@@ -36,6 +38,10 @@ CI runs `web-ext lint`, the same Mozilla linter that checks every submission.
 ## Vimium
 
 `vimium/hypr-palette.css` styles [Vimium](https://github.com/philc/vimium), the extension to browse with the keyboard: link hints in `bg` with an `accent` border and the typed letters in `accent2`, the search bar (Vomnibar) with the selected result in `accent`, and the bottom messages (find, visual mode) to match. JetBrainsMono everywhere.
+
+![Vimium link hints](docs/img/vimium-hints.webp)
+
+![Vimium search bar](docs/img/vimium-vomnibar.webp)
 
 **Apply:** Vimium options → *CSS for Vimium UI* (under advanced options) → paste the file and save. Press `f` on any page to see the hints and `o` for the search bar.
 
