@@ -33,6 +33,12 @@ La paleta de mi [escritorio Hyprland](https://github.com/kats76/dotfiles) para l
 
 El CI ejecuta `web-ext lint`, el mismo linter de Mozilla que revisa cada envío.
 
+## Vimium
+
+`vimium/hypr-palette.css` da estilo a [Vimium](https://github.com/philc/vimium), la extensión para navegar con el teclado: etiquetas de enlaces en `bg` con borde `accent` y las letras escritas en `accent2`, la barra de búsqueda (Vomnibar) con el resultado seleccionado en `accent` y los avisos de abajo (buscar en la página, modo visual) a juego. JetBrainsMono en todo.
+
+**Aplicar:** opciones de Vimium → *CSS para la interfaz de Vimium* (en las opciones avanzadas) → pegar el fichero y guardar. Pulsa `f` en cualquier página para ver las etiquetas y `o` para la barra de búsqueda.
+
 ## Flujo de trabajo
 
 El mismo flujo que en mis otros repos: **`dev` es para probar y `main` es lo publicado.** Cada cambio empieza como una issue, pasa por una rama y una pull request a `dev` (Conventional Commits, squash merge), y `main` avanza hasta `dev` con fast-forward una vez probado.
