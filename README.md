@@ -33,6 +33,12 @@ The palette of my [Hyprland desktop](https://github.com/kats76/dotfiles) for the
 
 CI runs `web-ext lint`, the same Mozilla linter that checks every submission.
 
+## Vimium
+
+`vimium/hypr-palette.css` styles [Vimium](https://github.com/philc/vimium), the extension to browse with the keyboard: link hints in `bg` with an `accent` border and the typed letters in `accent2`, the search bar (Vomnibar) with the selected result in `accent`, and the bottom messages (find, visual mode) to match. JetBrainsMono everywhere.
+
+**Apply:** Vimium options → *CSS for Vimium UI* (under advanced options) → paste the file and save. Press `f` on any page to see the hints and `o` for the search bar.
+
 ## Workflow
 
 Same flow as my other repos: **`dev` is for testing, `main` is what gets published.** Every change starts as an issue, goes through a branch and a pull request to `dev` (Conventional Commits, squash merge), and `main` is fast-forwarded to `dev` once it is tested.
