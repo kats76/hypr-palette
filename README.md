@@ -4,7 +4,7 @@
 
 [Leer en español](README.es.md)
 
-The palette of my [Hyprland desktop](https://github.com/kats76/dotfiles) for the apps I use every day: a Firefox theme and Vimium styles, so the browser looks like the rest of the desktop.
+A calm dark palette: deep navy backgrounds with muted purple and sage-teal accents, the same one my [Hyprland desktop](https://github.com/kats76/dotfiles) uses. Each color has one job everywhere: purple marks what is active, teal what is under the cursor. Here it is as a Firefox theme and Vimium styles.
 
 ![Firefox with the Hypr Palette theme](docs/img/firefox.webp)
 

@@ -4,7 +4,7 @@
 
 [Read in English](README.md)
 
-La paleta de mi [escritorio Hyprland](https://github.com/kats76/dotfiles) para las apps que uso a diario: un tema de Firefox y estilos para Vimium, para que el navegador se vea como el resto del escritorio.
+Una paleta oscura y tranquila: fondos azul marino con acentos en morado suave y verde azulado, la misma de mi [escritorio Hyprland](https://github.com/kats76/dotfiles). Cada color tiene una única función en todas partes: el morado marca lo activo y el verde azulado lo que está bajo el cursor. Aquí está como tema de Firefox y estilos para Vimium.
 
 ![Firefox con el tema Hypr Palette](docs/img/firefox.webp)
 
