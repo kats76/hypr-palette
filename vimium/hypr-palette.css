@@ -1,0 +1,98 @@
+/* Vimium con la paleta del escritorio Hyprland (kats76/dotfiles).
+   Se pega en Opciones de Vimium → "CSS para la interfaz de Vimium".
+   Paleta: bg #1e1e2e, fg #cdd6f4, accent #8a63c7, accent2 #6f9f98, gray #a08f95, light #c7ced6 */
+
+/* Etiquetas de los enlaces (f, F) */
+div > .vimiumHintMarker {
+  background: #1e1e2e;
+  border: 1px solid #8a63c7;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  padding: 1px 4px;
+}
+
+div > .vimiumHintMarker span {
+  color: #cdd6f4;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+/* Letras ya escritas */
+div > .vimiumHintMarker > .matchingCharacter {
+  color: #6f9f98;
+}
+
+/* Barra de búsqueda (o, O, b, T) */
+#vomnibar {
+  background: #1e1e2e;
+  border: 1px solid #8a63c7;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  overflow: hidden;
+}
+
+#vomnibar .vomnibarSearchArea,
+#vomnibar input {
+  background: #1e1e2e;
+  border: none;
+  color: #cdd6f4;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+}
+
+#vomnibar .vomnibarSearchArea {
+  border-bottom: 1px solid rgba(160, 143, 149, 0.35);
+}
+
+#vomnibar ul {
+  background: #1e1e2e;
+  border: none;
+}
+
+#vomnibar li {
+  border-bottom: 1px solid rgba(160, 143, 149, 0.15);
+}
+
+#vomnibar li .vomnibarTitle {
+  color: #cdd6f4;
+}
+
+#vomnibar li .vomnibarUrl,
+#vomnibar li .vomnibarSource {
+  color: #a08f95;
+}
+
+#vomnibar li .vomnibarMatch {
+  color: #6f9f98;
+  font-weight: bold;
+}
+
+/* Resultado seleccionado */
+#vomnibar li.vomnibarSelected {
+  background-color: #8a63c7;
+}
+
+#vomnibar li.vomnibarSelected .vomnibarTitle,
+#vomnibar li.vomnibarSelected .vomnibarUrl,
+#vomnibar li.vomnibarSelected .vomnibarSource,
+#vomnibar li.vomnibarSelected .vomnibarMatch {
+  color: #c7ced6;
+}
+
+/* Avisos abajo (búsqueda en página, modo visual…) */
+div.vimiumHUD {
+  background: #1e1e2e;
+  border: 1px solid #8a63c7;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+div.vimiumHUD .vimiumHUDSearchArea,
+div.vimiumHUD span,
+div.vimiumHUD input {
+  background: transparent;
+  color: #cdd6f4;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+}
