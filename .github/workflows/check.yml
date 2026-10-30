@@ -1,0 +1,24 @@
+name: Check
+
+on:
+  push:
+    branches: [dev, main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # El linter oficial de Mozilla: el mismo que revisa los envíos a addons.mozilla.org
+      - name: Firefox theme
+        run: npx --yes web-ext@8 lint --source-dir firefox
+
+      - name: Scripts
+        run: shellcheck scripts/*.sh
