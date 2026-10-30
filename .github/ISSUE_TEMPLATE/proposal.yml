@@ -1,0 +1,17 @@
+name: Proposal
+description: Suggest a color change or a new app to bring the palette to
+labels: [enhancement]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: What would you change or add?
+      description: Which part, which color, or which app.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+    validations:
+      required: true
