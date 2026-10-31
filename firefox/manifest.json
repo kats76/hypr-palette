@@ -1,12 +1,15 @@
 {
   "manifest_version": 2,
   "name": "Hypr Palette",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Paleta del escritorio Hyprland de kats76/dotfiles: fondo #1e1e2e, acento #8a63c7, texto #cdd6f4.",
   "browser_specific_settings": {
     "gecko": {
       "id": "hypr-palette@kats76.github.io",
-      "strict_min_version": "115.0"
+      "strict_min_version": "115.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
   "theme": {
