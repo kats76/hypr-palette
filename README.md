@@ -4,7 +4,7 @@
 
 [Leer en español](README.es.md)
 
-The palette of my [Hyprland desktop](https://github.com/kats76/dotfiles) for the apps I use every day: a Firefox theme and Vimium styles, so the browser looks like the rest of the desktop.
+A calm dark palette: deep navy backgrounds with muted purple and sage-teal accents, the same one my [Hyprland desktop](https://github.com/kats76/dotfiles) uses. Each color has one job everywhere: purple marks what is active, teal what is under the cursor. Here it is as a Firefox theme and Vimium styles.
 
 ![Firefox with the Hypr Palette theme](docs/img/firefox.webp)
 
@@ -23,7 +23,7 @@ The palette of my [Hyprland desktop](https://github.com/kats76/dotfiles) for the
 
 `firefox/manifest.json` is a Firefox theme: the window, toolbar, menus and sidebar in `bg`, the selected tab in `accent` (like the active workspace in waybar), the address bar one shade above `bg` with an `accent2` border when focused, and `accent2` on hover. Private windows keep Firefox's own purple design, so they still stand out.
 
-**Install:** it is being reviewed on addons.mozilla.org. The install link will be here once it is approved.
+**Install:** get it from [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/hypr-palette/) and click *Add to Firefox*. Updates arrive on their own.
 
 **Try it without installing:** open `about:debugging#/runtime/this-firefox`, click *Load Temporary Add-on…* and pick `firefox/manifest.json`. It goes away when Firefox closes.
 

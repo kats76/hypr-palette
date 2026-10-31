@@ -4,7 +4,7 @@
 
 [Read in English](README.md)
 
-La paleta de mi [escritorio Hyprland](https://github.com/kats76/dotfiles) para las apps que uso a diario: un tema de Firefox y estilos para Vimium, para que el navegador se vea como el resto del escritorio.
+Una paleta oscura y tranquila: fondos azul marino con acentos en morado suave y verde azulado, la misma de mi [escritorio Hyprland](https://github.com/kats76/dotfiles). Cada color tiene una única función en todas partes: el morado marca lo activo y el verde azulado lo que está bajo el cursor. Aquí está como tema de Firefox y estilos para Vimium.
 
 ![Firefox con el tema Hypr Palette](docs/img/firefox.webp)
 
@@ -23,7 +23,7 @@ La paleta de mi [escritorio Hyprland](https://github.com/kats76/dotfiles) para l
 
 `firefox/manifest.json` es un tema de Firefox: ventana, barra de herramientas, menús y barra lateral en `bg`, la pestaña activa en `accent` (como el escritorio activo de waybar), la barra de direcciones un tono por encima de `bg` con borde `accent2` al tener el foco, y `accent2` al pasar el ratón. Las ventanas privadas mantienen el diseño morado propio de Firefox, así que se siguen distinguiendo.
 
-**Instalar:** está en revisión en addons.mozilla.org. El enlace para instalarlo estará aquí cuando lo aprueben.
+**Instalar:** desde [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/hypr-palette/), pulsando *Añadir a Firefox*. Las actualizaciones llegan solas.
 
 **Probarlo sin instalar:** abre `about:debugging#/runtime/this-firefox`, pulsa *Cargar complemento temporal…* y elige `firefox/manifest.json`. Desaparece al cerrar Firefox.
 
