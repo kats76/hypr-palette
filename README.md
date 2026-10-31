@@ -23,7 +23,7 @@ A calm dark palette: deep navy backgrounds with muted purple and sage-teal accen
 
 `firefox/manifest.json` is a Firefox theme: the window, toolbar, menus and sidebar in `bg`, the selected tab in `accent` (like the active workspace in waybar), the address bar one shade above `bg` with an `accent2` border when focused, and `accent2` on hover. Private windows keep Firefox's own purple design, so they still stand out.
 
-**Install:** it is being reviewed on addons.mozilla.org. The install link will be here once it is approved.
+**Install:** get it from [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/hypr-palette/) and click *Add to Firefox*. Updates arrive on their own.
 
 **Try it without installing:** open `about:debugging#/runtime/this-firefox`, click *Load Temporary Add-on…* and pick `firefox/manifest.json`. It goes away when Firefox closes.
 
